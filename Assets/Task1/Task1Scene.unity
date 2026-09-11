@@ -461,7 +461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &377967248
 ParticleSystemRenderer:
   serializedVersion: 7
@@ -6173,6 +6173,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1604088788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2870045797575023824, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_Name
+      value: Fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55000055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277133501123383050, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
 --- !u!1 &1692395965
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,109 +6278,9 @@ MonoBehaviour:
       m_Data: []
   m_Splines:
   - m_EditModeType: 1
-    m_Knots:
-    - Position:
-        x: 3.5790038
-        y: 0
-        z: -8.94
-      TangentIn:
-        x: 0
-        y: 0
-        z: -2.6393368
-      TangentOut:
-        x: 0
-        y: 0
-        z: 2.6393368
-      Rotation:
-        value:
-          x: 5.766778e-20
-          y: 0.9435304
-          z: -2.0247952e-20
-          w: -0.33128607
-    - Position:
-        x: -3.670996
-        y: 0
-        z: -8.22
-      TangentIn:
-        x: 0
-        y: 0
-        z: -0.95634747
-      TangentOut:
-        x: 0
-        y: 0
-        z: 0.95634747
-      Rotation:
-        value:
-          x: 3.6083056e-19
-          y: -0.56303823
-          z: -5.296294e-19
-          w: 0.8264308
-    - Position:
-        x: -12.500996
-        y: 0
-        z: -8.969999
-      TangentIn:
-        x: 0
-        y: 0
-        z: -1.3437206
-      TangentOut:
-        x: 0
-        y: 0
-        z: 1.3437206
-      Rotation:
-        value:
-          x: -4.3800094e-18
-          y: -0.45961893
-          z: 8.463437e-18
-          w: 0.88811624
-    - Position:
-        x: -12.130996
-        y: 0
-        z: 5.35
-      TangentIn:
-        x: 0
-        y: 0
-        z: -1.742871
-      TangentOut:
-        x: 0
-        y: 0
-        z: 1.742871
-      Rotation:
-        value:
-          x: -3.460716e-20
-          y: 0.02870023
-          z: -1.2053184e-18
-          w: 0.999588
-    - Position:
-        x: 4.0890036
-        y: 0
-        z: 5.14
-      TangentIn:
-        x: 0
-        y: 0
-        z: -4.4349737
-      TangentOut:
-        x: 0
-        y: 0
-        z: 4.4349737
-      Rotation:
-        value:
-          x: 0
-          y: 0.9687928
-          z: 0
-          w: 0.2478721
-    m_MetaData:
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    m_Closed: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
     m_IntData:
       m_Data: []
     m_FloatData:
@@ -6362,11 +6319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Container: {fileID: 1692395966}
-  m_ItemsToInstantiate:
-  - prefab: {fileID: 0}
-    Prefab: {fileID: 2870045797575023824, guid: 40f618f39e3a450499bf544cad8ebd66, type: 3}
-    probability: 0
-    Probability: 0
+  m_ItemsToInstantiate: []
   m_Method: 1
   m_Space: 0
   m_Spacing: {x: 1, y: 1}
@@ -6398,7 +6351,7 @@ MonoBehaviour:
     space: 0
   m_DeprecatedInstances: []
   m_AutoRefresh: 1
-  m_Seed: -1391078291
+  m_Seed: 641909382
 --- !u!114 &1692395969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6411,29 +6364,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 222dc08d484f16869bdd89edd9d368fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Container: {fileID: 1692395966}
+  m_Container: {fileID: 0}
   m_TargetMesh: {fileID: 0}
   m_RebuildOnSplineChange: 1
   m_RebuildFrequency: 30
   m_UpdateColliders: 1
   m_Sides: 8
   m_SegmentsPerUnit: 4
-  m_Capped: 0
+  m_Capped: 1
   m_Radius: 0.25
   m_Range: {x: 0, y: 1}
   m_FlipNormals: 0
   m_Shape:
-    rid: 2994459033288573264
+    rid: 6554326510194917622
   references:
     version: 2
     RefIds:
-    - rid: 2994459033288573264
-      type: {class: SplineShape, ns: UnityEngine.Splines.ExtrusionShapes, asm: Unity.Splines}
+    - rid: 6554326510194917622
+      type: {class: Circle, ns: UnityEngine.Splines.ExtrusionShapes, asm: Unity.Splines}
       data:
-        m_Template: {fileID: 0}
-        m_SplineIndex: 0
-        m_SideCount: 12
-        m_Axis: 1
+        m_Sides: 8
 --- !u!23 &1692395970
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6946,9 +6896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e48702029b02f4746bae6119b421458e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreUIbox: {fileID: 1260379234}
-  TimerUIbox: {fileID: 2033863459}
-  CompletionUIbox: {fileID: 914119027}
 --- !u!1001 &1887016867699676496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7025,3 +6972,4 @@ SceneRoots:
   - {fileID: 1039130365}
   - {fileID: 1948829676}
   - {fileID: 377967250}
+  - {fileID: 1604088788}
